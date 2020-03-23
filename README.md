@@ -9,6 +9,8 @@ JavaScriptのスライドショー制作のためのライブラリです。
 ガリガリコード https://garigaricode.com/swiper/
 <br>
 
+<img src="https://github.com/55Kaerukun/img/blob/master/swiper.png" width="500px">
+
 ## 1、使用するcssとjsの読み込み
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
