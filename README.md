@@ -1,7 +1,7 @@
 # Swiper
 JavaScriptのスライドショー制作のためのライブラリです。
 
-<img src="http://hareumi.com/dhjs/swiper2.png" width="600px">
+<img src="http://hareumi.com/dhjs/swiper2.png" width="1200px">
 <br>
 
 参考 <br>
