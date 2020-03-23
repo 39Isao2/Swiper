@@ -10,8 +10,7 @@ JavaScriptのスライドショー制作のためのライブラリです。
 <br>
 
 # 公式サイト→Get Startedを見ながら制作しましょう
-<br>
-公式サイト https://swiperjs.com/  <br>
+公式サイト https://swiperjs.com/  <br><br>
 
 
 
