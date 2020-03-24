@@ -40,22 +40,28 @@ JavaScriptのスライドショー制作のためのライブラリです。
 
 ## 3、cssでサイズ調整
 
-'''
 
-    .swiper-container {
+```
+/* ここから */
+
+.swiper-container {
+    width: 100%;
+    height: 700px;
+}
+
+@media (max-width:767px) {
+.swiper-wrapper img {
         width: 100%;
         height: 700px;
-        /* background: url(../img/main01.jpg) center center no-repeat;
-        background-size: cover; */
-        position: relative;
-    }
 
-
-    .swiper-wrapper img {
-        width: 100%;
-        height: 700px;
-        object-fit: cover;
+        /* 素晴らしい呪文 
+        画像の縦横比を維持したままボックスを埋めたい時
+        */
+       object-fit: cover;
     }
+}
+```
+
 
 
 ## 4、JavaScriptの記述
