@@ -27,10 +27,9 @@ JavaScriptのスライドショー制作のためのライブラリです。
 	
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="ここにパス"></div>
-            <div class="swiper-slide"><img src="ここにパス"></div>
-            <div class="swiper-slide"><img src="ここにパス"></div>
-            <div class="swiper-slide"><img src="ここにパス"></div>
+            <div class="swiper-slide"><img src="img/main01.jpg" alt="mainimage1"></div>
+            <div class="swiper-slide"><img src="img/main02.jpg" alt="mainimage2"></div>
+            <div class="swiper-slide"><img src="img/main02.jpg" alt="mainimage3"></div>
         </div>
 
         <!--<div class="swiper-button-prev"></div>-->
