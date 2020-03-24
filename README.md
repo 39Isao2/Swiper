@@ -85,22 +85,20 @@ JavaScriptのスライドショー制作のためのライブラリです。
     }
     });
   
-### オプション 3枚スライド
-    
-    var swiper = new Swiper('.swiper-container', {
-    effect: 'coverflow',
-    slidesPerView: 3,
-    autoplay: {
-      delay: 3000,
-      stopOnLastSlide: false,
-      disableOnInteraction: false,
-      reverseDirection: false
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    }
+### オプション ページネーション
+
+
+```
+/* ここから */
+   // ページネーション
+     var mySwiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        }
     });
+```
     
 
 <br>
