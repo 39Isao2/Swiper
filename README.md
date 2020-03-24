@@ -58,6 +58,9 @@ JavaScriptのスライドショー制作のためのライブラリです。
         画像の縦横比を維持したままボックスを埋めたい時
         */
        object-fit: cover;
+       
+       /* 少し上級 */
+       object-position: 20% top;
     }
 }
 ```
