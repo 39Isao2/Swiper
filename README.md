@@ -32,8 +32,12 @@ JavaScriptのスライドショー制作のためのライブラリです。
             <div class="swiper-slide"><img src="img/main02.jpg" alt="mainimage3"></div>
         </div>
 
-        <!--<div class="swiper-button-prev"></div>-->
-        <!--<div class="swiper-button-next"></div>-->
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-pagination"></div>
     </div>
 
 <br>
@@ -93,13 +97,23 @@ JavaScriptのスライドショー制作のためのライブラリです。
 
 ```
 /* ここから */
-   // ページネーション
-     var mySwiper = new Swiper('.swiper-container', {
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true
-        }
+    // ページネーション
+    var mySwiper = new Swiper('.swiper-container', {
+      autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+        reverseDirection: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      }
     });
 ```
     
