@@ -99,7 +99,7 @@ var swiper = new Swiper('.swiper-container', {
 
 
     
-### オプション autoPlay + loop
+### オプション autoPlay + loop + autoplay
 
 ```
 
@@ -112,13 +112,12 @@ var swiper = new Swiper('.swiper-container', {
   pagination: {
     el: '.swiper-pagination',
   },
-  speed: 1000,
   autoplay: {
-      delay: 3000,
-      /*最後のスライドまで行くと最初のスライドに戻って再生し続ける*/
-      stopOnLastSlide: false,  // 最後に行くと最後に戻る
-  }
-  
+     delay: 500, // 次スライドまでの待機時間
+  },
+   speed: 1000, // スライドするスピード
+   loop:true, 
+   
 });
 
 
