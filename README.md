@@ -16,8 +16,8 @@ JavaScriptのスライドショー制作のためのライブラリです。
 
 ## 1、使用するcssとjsの読み込み
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
 <br>
 
@@ -32,12 +32,15 @@ JavaScriptのスライドショー制作のためのライブラリです。
             <div class="swiper-slide"><img src="img/main02.jpg" alt="mainimage3"></div>
         </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-pagination"></div>
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
     </div>
 
 <br>
