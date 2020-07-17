@@ -32,15 +32,15 @@ JavaScriptのスライドショー制作のためのライブラリです。
             <div class="swiper-slide"><img src="img/main02.jpg" alt="mainimage3"></div>
         </div>
 
-	<!-- If we need pagination -->
-	<div class="swiper-pagination"></div>
+	    <!-- If we need pagination -->
+	    <div class="swiper-pagination"></div>
 
-	<!-- If we need navigation buttons -->
-	<div class="swiper-button-prev"></div>
-	<div class="swiper-button-next"></div>
+	    <!-- If we need navigation buttons -->
+	    <div class="swiper-button-prev"></div>
+	    <div class="swiper-button-next"></div>
 
-	<!-- If we need scrollbar -->
-	<div class="swiper-scrollbar"></div>
+	    <!-- If we need scrollbar -->
+	    <div class="swiper-scrollbar"></div>
     </div>
 
 <br>
