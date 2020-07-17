@@ -49,27 +49,17 @@ JavaScriptのスライドショー制作のためのライブラリです。
 
 
 ```
-/* ここから */
-
-.swiper-container {
+.swiper-container{
     width: 100%;
-    height: 700px;
+    height: auto;
 }
 
-@media (max-width:767px) {
-.swiper-wrapper img {
-        width: 100%;
-        height: 700px;
-
-        /* 素晴らしい呪文 
-        画像の縦横比を維持したままボックスを埋めたい時
-        */
-       object-fit: cover;
-       
-       /* 少し上級 */
-       object-position: 20% top;
-    }
+/* 画像も横幅100%にする */
+.swiper-container img{
+  width: 100%;
+  height: auto;
 }
+
 ```
 
 
