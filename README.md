@@ -99,8 +99,31 @@ var swiper = new Swiper('.swiper-container', {
 
 
     
-### オプション autoPlay
-    
+### オプション autoPlay + loop
+
+```
+
+var swiper = new Swiper('.swiper-container', {
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  speed: 1000,
+  autoplay: {
+      delay: 3000,
+      /*最後のスライドまで行くと最初のスライドに戻って再生し続ける*/
+      stopOnLastSlide: false,  // 最後に行くと最後に戻る
+  }
+  
+});
+
+
+
+```
     var swiper = new Swiper('.swiper-container', {
     speed: 1000,
     autoplay: {
