@@ -123,7 +123,7 @@ var swiper = new Swiper('.swiper-container', {
 
 ```
  
-### エフェクトの種類
+### 参考:エフェクトの種類
 
 ```
 effect: 'fade', <br>
