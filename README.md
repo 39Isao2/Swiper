@@ -70,16 +70,30 @@ JavaScriptのスライドショー制作のためのライブラリです。
 
     var swiper = new Swiper('.swiper-container');
     
-### オプション ページネーション
-
+### オプション navigation
 
 ```
-    var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+var swiper = new Swiper('.swiper-container', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+```
+
+### オプション navigation +  pagination
+
+```
+var swiper = new Swiper('.swiper-container', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
 
 ```
 
