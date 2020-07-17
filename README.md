@@ -130,4 +130,11 @@ effect: 'fade', <br>
 effect: 'flip', <br>
 ```
 
-など、、
+など。デザインに合った、自分の目指すスライドショーを作りましょう。<br>
+だいたいプラグインは、<br>
+１、jsとcss読み込む
+２、jsで実行<br>
+３、お好みで{内容:パラメータ}で調整という作りです。　以上。
+
+    prevEl: '.swiper-button-prev',プラグイン
+    prevEl: '.swiper-button-prev',
